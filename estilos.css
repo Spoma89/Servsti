@@ -6,7 +6,7 @@ font-family: 'Ubuntu', sans-serif;
 
 }
 body{
-  background-color: grey;
+  background-color: #1D4B9B;
 }
 div.nav-wrapper{
 
@@ -160,7 +160,7 @@ div.vision{
   height: 520px;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-image: url(imagenes/brazo.png);
+  background-image: url(imagenes/chapaazul.png);
 }
 p.vision1{
   
