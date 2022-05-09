@@ -139,7 +139,7 @@ div h3{
 }
 ul li{ color: #fff;
   font-size: 15px;
-
+text-align: justify;
   
 }
 .grid-container {
@@ -188,6 +188,8 @@ h5{
   font-size: 15px;
   margin-top: 0px;
   padding-top: 15px;
+  text-align: justify;
+  padding: 10px;
 }
 /*galeria*/
 div.child-page-listing{
