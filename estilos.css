@@ -50,13 +50,13 @@ background-image: url(imagenes/contacto.png);
 height: 100%;
 }
 
-p.intro{
+h1.intro{
   padding-top: 150px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 45px;
+  font-size: 25px;
   color: #ffffff;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
 }
 div.a{
  
@@ -159,20 +159,29 @@ div.vision{
   margin-top: 0px;
   margin-bottom: 0px;
   background-image: url(imagenes/fondomina.png);
- 
+
 }
 
 p.vision1{
-  
+  display: inline-block;
   
   color: #ffffff;
   text-align: center;
   text-indent: center;
  padding: 125px 25px 25px 25px;
- margin-left: 20%;
- text-align: justify;
+ margin-left:25%;
+ 
 
 }
+@media screen and (max-width: 100px) {
+  p.vision {
+    width: 100%;
+   
+    margin-bottom: 20px;
+    
+  }
+}
+
 img.logo{
   margin-bottom: 25px;
   padding: 5px;
