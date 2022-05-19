@@ -168,13 +168,12 @@ background: linear-gradient(to bottom, #1D4B9B, #2175AB 80%);
 }
 
 p.vision1{
-  display: inline-block;
-  
-  color: #ffffff;
+ padding-top: 70px;
+  margin-bottom: 20px;
   text-align: center;
-  text-indent: center;
- padding: 90px 25px 25px 25px;
- margin-left:25%;
+  font-size: 25px;
+  color: #ffffff;
+  letter-spacing: 5px;
  
 
 }
@@ -186,7 +185,14 @@ p.vision1{
     
   }
 }
-
+@media screen and (max-width: 100px) {
+  p.vision1 {
+    width: 100%;
+   margin-left: 0px;
+    margin-bottom: 20px;
+    
+  }
+}
 img.logo{
   margin-bottom: 25px;
   padding: 5px;
@@ -298,7 +304,7 @@ img.clienf{
  a.client{
   align-items: center;
   display: inline-flex;
-  margin-left: 75px;
+  text-align: center;
   margin-bottom: 55px;
     border: 2px solid #1565C0;
   padding: 10px;
